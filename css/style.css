@@ -146,6 +146,8 @@ img {
 	color: #fff;
 }
 
+/* Hide Content */
+
 #tab-1-content .tab-1-content-inner {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
