@@ -139,6 +139,13 @@ img {
 	border-bottom: var(--primary-color) 4px solid;
 }
 
+/* Tab Content */
+.tab-content {
+	padding: 3rem 0;
+	background: #000;
+	color: #fff;
+}
+
 #tab-1-content .tab-1-content-inner {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -147,12 +154,40 @@ img {
 	justify-content: center;
 }
 
+#tab-2-content .tab-2-content-top {
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
 /* Container */
 .container {
 	max-width: 70%;
 	margin: auto;
 	overflow: hidden;
 	padding: 0 2rem;
+}
+
+/* Text Styles */
+.text-xl {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.text-lg {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-dark {
+	color: #999;
 }
 
 /* Buttons */
